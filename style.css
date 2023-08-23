@@ -202,3 +202,10 @@ ul {
   order: 2;
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .bar {
+    display: none;
+  }
+
+}
