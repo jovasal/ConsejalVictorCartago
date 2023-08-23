@@ -192,13 +192,13 @@ ul {
 .footer {
   display: flex;
   flex-direction: row;
-  width: 375px;
-  height: 92px;
+  width: auto;
+  height: auto;
   justify-content: space-between;
   align-items: center;
   padding: 50px 36px 15px 24px;
   box-sizing: border-box;
-  background-color: blueviolet;
+  background-color: #fefefe;
   order: 2;
   margin: 0;
 }
@@ -208,4 +208,23 @@ ul {
     display: none;
   }
 
+  .burger-menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    margin: 3px 3px 3px 3px;
+    justify-content: space-between;
+  }
+
+  .item-styles {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #be000b;
+    text-decoration: none;
+    align-items: start;
+    padding: 0 10px 0 10px;
+  }
 }
