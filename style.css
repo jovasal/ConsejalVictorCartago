@@ -12,7 +12,7 @@ body {
   margin: auto;
 }
 
-/*encabezado*/
+/* --encabezado-- */
 
 .header {
   display: flex;
@@ -29,12 +29,12 @@ body {
 }
 
 .header-container {
-display: flex;
-flex-direction: row;
-align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-/*logo*/
+/* --logo-- */
 
 .L17 {
   margin: 0 0 0 0;
@@ -43,7 +43,7 @@ align-items: center;
   height: 50%;
 }
 
-/*burger or menu*/
+/* --burger or menu-- */
 
 .navbar {
   display: flex;
@@ -69,7 +69,6 @@ align-items: center;
   flex-direction: column;
   left: 0;
   top: 0;
-  /*background: #be000b;*/
   background-image: url(./images/fondo-rojo-grunge_1048-9745.avif);
   width: 350px;
   height: 92px;
@@ -89,7 +88,7 @@ align-items: center;
   transition: background 0.3s ease-in-out;
 }
 
-.item-styles {
+/* --.item-styles {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -97,13 +96,13 @@ align-items: center;
   line-height: 20px;
   color: #fefefe;
   text-decoration: none;
-}
+} -- */
 
 ul {
   list-style: none;
 }
 
-/*contenido*/
+/* --contenido-- */
 
 .sectionIntro {
   display: flex;
