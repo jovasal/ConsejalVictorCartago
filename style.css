@@ -176,19 +176,33 @@ ul {
   font-size: 20px;
   color: #be000b;
   text-align: justify;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 100px 10px;
 }
 
 #icons {
   width: 40px;
-  height: 20px;
+  height: 100px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  margin-top: 5%;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   list-style-type: none;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
+  padding-left: 5px;
+}
+
+.sectionapoyo {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  justify-content: space-between;
+  background-color: #be000b;
+  align-items: start;
+  order: 2;
+  margin: 0;
 }
 
 .footer {
@@ -201,7 +215,7 @@ ul {
   padding: 50px 36px 15px 24px;
   box-sizing: border-box;
   background-color: #fefefe;
-  order: 2;
+  order: 4;
   margin: 0;
 }
 
