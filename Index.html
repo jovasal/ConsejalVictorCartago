@@ -8,9 +8,9 @@
         <title>Victor Pineda Consejal</title>
     </head>
     <body>
-      <header class="header">
+      <header class="header" id="L17">
         <div class="header-container">
-          <a href="#">
+          <a href="#L17">
             <img src="images/L17.jpeg" class="L17" alt="L17">
           </a>          
           <nav class="navbar">
@@ -20,17 +20,19 @@
                 <div class="bar"></div>
             </div>
             <ul class="nav-links">
-                <li><a class="item-styles" href="#">Portfolio</a></li>
+                <li><a class="item-styles" href="#Inicio">Inicio</a></li>
                 <li><a> </a>     </li>
-                <li><a class="item-styles" href="#about">About</a></li>
+                <li><a class="item-styles" href="#LaVozDelPueblo">Vota L17</a></li>
                 <li><a> </a>     </li>
-                <li><a class="item-styles" href="#contact">Contact</a></li>
+                <li><a class="item-styles" href="#contact">Concejo</a></li>
+                <li><a> </a></li>
+                <li><a class="item-styles" href="#Formulario">contactanos</a></li>
                 <li><a> </a></li>
             </ul>
           </nav>
         </div>   
       </header>
-      <sectionIntro class="sectionIntro" id="sectionIntro">
+      <sectionIntro class="sectionIntro" id="Inicio">
         <div class="ContainerIntro" id="ContainerIntro">
           <div class="main-text">
             <div class="secint1">
@@ -66,7 +68,7 @@
           </div>
         </div>
       </sectionIntro>
-      <sectionapoyo class="sectionapoyo">
+      <sectionapoyo class="sectionapoyo" id="LaVozDelPueblo">
         <div class="secapo">
           <h2>#LAVOZDELPUEBLO</h2>
           <a href="#" class="Iface1">
@@ -74,31 +76,25 @@
           </a>
         </div>  
       </sectionapoyo>
-      
-      
       <div class="formulario">
         <h2 class="formi">Formulario de Contacto</h2>
-        <form action="#" method="post">
+        <form action="https://formspree.io/f/xayzkwne" method="post">
           <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required>
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" maxlength="30" required>
             
           <label for="correo">Correo:</label>
-          <input type="email" id="correo" name="correo" required>
+          <input type="email" id="correo" name="correo" placeholder="Email en Minusculas" required>
             
           <label for="telefono">Teléfono:</label>
-          <input type="tel" id="telefono" name="telefono" required>
+          <input type="tel" id="telefono" name="telefono" maxlength="10" placeholder="3212365498" required>
             
           <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje aqui" maxlength="500" required></textarea>
           
           <button type="submit">Enviar</button>
         </form>
       </div>
-      
-
-
-
-      <footer class="footer">
+      <footer class="footer" id="Formulario">
         <section class="footera" id="footera">
             <div class="sponsorgrid">
                 <div class="sponsorgrid">
