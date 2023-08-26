@@ -279,19 +279,11 @@ ul {
   }
 
   .secapo h2 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 90px;
-  color: #fefefe;
-  text-align: center;
-  margin: 10px 10px 10px 10px;
-}
-
-    .Iface11 {
-    display: block;
-    margin-left: 50%;
-    margin-right: 50%$;
-    height: 100%;
-    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 85px;
+    color: #fefefe;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
   }
 }
 
@@ -327,14 +319,13 @@ ul {
     color: #fefefe;
     text-align: center;
     margin: 10px 10px 10px 10px;
-}
+  }
 
   .Iface11 {
     display: block;
     margin-left: 50%;
-    margin-right: 50%$;
+    margin-right: 50%;
     height: 100%;
     width: 100%;
   }
-
 }
