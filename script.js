@@ -45,3 +45,18 @@ function toggleMenu() {
     close2.addEventListener('click', () => {
         popup2.style.display = 'none';
     });
+
+
+    // script.js
+document.addEventListener("DOMContentLoaded", function() {
+  const popup = document.getElementById("popuppp");
+  const cerrarPopup = document.getElementById("cerrar-popup");
+
+  // Mostrar el popup al cargar la página
+  popup.style.display = "block";
+
+  // Cerrar el popup al hacer clic en el botón de cerrar
+  cerrarPopup.addEventListener("click", function() {
+      popup.style.display = "none";
+  });
+});
